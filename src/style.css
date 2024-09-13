@@ -1,0 +1,99 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body and layout */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-padding {
+    padding: 20px 0;
+}
+
+.profile {
+    text-align: center;
+}
+
+.picture-resume img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.name-wrapper h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+.contact-info, .contact-social {
+    margin: 20px 0;
+}
+
+.contact-list, .social-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li, .social-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list a, .social-list a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-list a:hover, .social-list a:hover {
+    text-decoration: underline;
+}
+
+.contact-presentation p {
+    margin: 10px 0;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.experience-wrapper {
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.company-name {
+    font-style: italic;
+}
+
+.time-frame {
+    color: #555;
+}
+
+.skills-list, .hobbies p {
+    margin: 10px 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
